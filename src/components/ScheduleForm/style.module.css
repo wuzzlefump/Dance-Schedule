@@ -1,0 +1,45 @@
+.card{
+
+    margin-block-start: 20px;
+    margin-block-end: 20px ;
+    padding-block-end: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 300px;
+    height: 350px;
+}
+
+.cardHeader{
+    text-align: center;
+    height: 42px;
+    width:auto;
+    padding-block-start:10px ;
+    font-size: 30px;
+    font-weight: 900;
+    margin-block-end: 10px;
+    /* font-family: fantasy; */
+
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border:1px solid hsl(161, 10%, 37%);
+	color:#ffffff;
+	font-family:Arial;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    
+}
+
+input{
+    min-height: 42px;
+    max-width: 280px;
+    margin-block-end: 10px;
+    font-size: 25px;
+}
+
+textarea{
+max-width: 280px;
+min-height: 180px;
+resize: none;
+font-size: 25px;
+}

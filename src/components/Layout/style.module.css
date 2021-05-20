@@ -1,0 +1,15 @@
+.layoutNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEE;
+    box-shadow: 0 4px 6px  black;
+    padding-block-start: 10px ;
+    padding-block-end: 10px;
+}
+.layoutSchedule{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}

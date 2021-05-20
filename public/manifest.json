@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dance Schedule",
+  "name": "Daily Dance Scheduling",
   "icons": [
     {
       "src": "favicon.ico",
