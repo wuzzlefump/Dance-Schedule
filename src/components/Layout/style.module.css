@@ -1,15 +1,30 @@
-.layoutNav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #EEEE;
-    box-shadow: 0 4px 6px  black;
-    padding-block-start: 10px ;
-    padding-block-end: 10px;
+.layoutNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeee;
+  box-shadow: 0 4px 6px black;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  padding-inline-start: 50%;
+  padding-inline-end: 10px;
+  color: black;
 }
-.layoutSchedule{
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
+.linkItem {
+  display: block;
+  line-height: 1;
+  color: black;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.layoutSchedule {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
 }
