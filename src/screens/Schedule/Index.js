@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useMutation } from "react-query";
-import "./style.css";
+import styles from "./style.module.css";
 import Schedule from "../../components/ScheduleForm/index";
 import { Formik } from "formik";
 
@@ -33,7 +33,7 @@ export default function SchedulePage() {
   React.useEffect(() => {}, []);
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       {savedPlanner !== null ? (
         <Formik
           initialValues={{
@@ -42,7 +42,7 @@ export default function SchedulePage() {
         >
           {(f) => (
             <form>
-              <div className={"scheduleContainer"}>
+              <div className={styles.scheduleContainer}>
                 <Schedule
                   f={f}
                   values={f.values.lessonPlans[0]}
@@ -164,7 +164,7 @@ export default function SchedulePage() {
                   time={"9:00"}
                 ></Schedule>
               </div>
-              <div className="footer">
+              <div className={styles.footer}>
                 <button onClick={(e) => save(e, f.values.lessonPlans)}>
                   Save
                 </button>
@@ -188,7 +188,7 @@ export default function SchedulePage() {
         >
           {(f) => (
             <form>
-              <div className={"scheduleContainer"}>
+              <div className={styles.scheduleContainer}>
                 <Schedule
                   f={f}
                   values={f.values.lessonPlans[0]}
@@ -310,7 +310,7 @@ export default function SchedulePage() {
                   time={"9:00"}
                 ></Schedule>
               </div>
-              <div className="footer">
+              <div className={styles.footer}>
                 <button onClick={(e) => save(e, f.values.lessonPlans)}>
                   Save
                 </button>
