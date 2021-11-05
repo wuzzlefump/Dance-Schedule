@@ -16,14 +16,14 @@ const Todo = React.lazy(() => import("./screens/Todo/Index"));
 function App() {
   const routes = [
     {
-      path: "/",
+      path: `/`,
       title: "Schedule",
       comp: <SchedulePage />,
       Layout: Layout,
       Route: Route,
     },
     {
-      path: "/todo",
+      path: `/todo`,
       title: "Todo",
       comp: <Todo />,
       Layout: Layout,
@@ -32,7 +32,7 @@ function App() {
   ];
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         {routes.map((x, i) => {
           const RouteComp = x.Route;
