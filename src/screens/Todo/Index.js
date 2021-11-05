@@ -12,7 +12,6 @@ export default function ToDoList() {
 
   const save = (e) => {
     e.preventDefault();
-    console.log(savedToDoList);
     if (list.includes(currentInputValue)) {
       return null;
     } else {
@@ -38,7 +37,6 @@ export default function ToDoList() {
                 <input
                   onFocus={() => {
                     let x = list;
-                    console.log(x);
                     x.pop(item);
                     set.list = [...x];
                     localStorage.setItem("todos", JSON.stringify([...x]));
@@ -54,7 +52,6 @@ export default function ToDoList() {
           <input
             onChange={(e) => {
               set.currentInputValue = e.target.value;
-              console.log(currentInputValue);
             }}
             name={"newToDo"}
             value={currentInputValue}
