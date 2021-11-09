@@ -1,6 +1,6 @@
-import { Model } from "@expressive/mvc";
+// import { Model } from "@expressive/mvc";
 
-export class List extends Model {
-  list = [];
-  currentInputValue = "";
-}
+// export class List extends Model {
+//   list = [];
+//   currentInputValue = "";
+// }

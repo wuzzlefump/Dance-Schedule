@@ -1,12 +1,19 @@
 import * as React from "react";
 import Layout from "./components/Layout";
-import {
-  BrowserRouter,
-  Route,
-  Redirect,
-  Switch,
-  RouteProps,
-} from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Provider } from "@expressive/mvc";
+import { Model } from "@expressive/mvc";
+
+export class List extends Model {
+  list = [];
+  currentInputValue = "";
+  removeValue = (value) => {
+    let x = this.list;
+    x.pop(value);
+    this.list = [...x];
+    localStorage.setItem("todos", JSON.stringify([...x]));
+  };
+}
 
 //screen import
 const SchedulePage = React.lazy(() => import("./screens/Schedule/Index"));
@@ -33,17 +40,19 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        {routes.map((x, i) => {
-          const RouteComp = x.Route;
-          return (
-            <RouteComp key={i} exact path={x.path}>
-              {/* //documentTitle */}
-              <x.Layout {...x.layoutProps}>
-                <React.Suspense fallback={"Loading"}>{x.comp}</React.Suspense>
-              </x.Layout>
-            </RouteComp>
-          );
-        })}
+        <Provider of={List}>
+          {routes.map((x, i) => {
+            const RouteComp = x.Route;
+            return (
+              <RouteComp key={i} exact path={x.path}>
+                {/* //documentTitle */}
+                <x.Layout {...x.layoutProps}>
+                  <React.Suspense fallback={"Loading"}>{x.comp}</React.Suspense>
+                </x.Layout>
+              </RouteComp>
+            );
+          })}
+        </Provider>
       </Switch>
     </BrowserRouter>
   );
