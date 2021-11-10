@@ -9,7 +9,8 @@ export class List extends Model {
   currentInputValue = "";
   removeValue = (value) => {
     let x = this.list;
-    x.pop(value);
+    let index = x.indexOf(value);
+    x.splice(index, 1);
     this.list = [...x];
     localStorage.setItem("todos", JSON.stringify([...x]));
   };

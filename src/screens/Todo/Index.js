@@ -57,7 +57,7 @@ const ToDoItem = (props) => {
   return (
     <span>
       <input
-        onFocus={() => {
+        onClick={() => {
           removeValue(props.value);
         }}
         type={"checkbox"}
