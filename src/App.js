@@ -46,7 +46,7 @@ function App() {
             return (
               <RouteComp key={i} exact path={x.path}>
                 {/* //documentTitle */}
-                <x.Layout {...x.layoutProps}>
+                <x.Layout>
                   <React.Suspense fallback={"Loading"}>{x.comp}</React.Suspense>
                 </x.Layout>
               </RouteComp>

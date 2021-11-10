@@ -2,8 +2,10 @@ import * as React from "react";
 import styles from "./style.module.css";
 import MyClock from "../Clock/index";
 import { NavLink } from "react-router-dom";
+import { List } from "../../App";
 
 export default function Layout(props) {
+  const { list } = List.get();
   return (
     <>
       <nav className={styles.layoutNav}>
@@ -14,7 +16,7 @@ export default function Layout(props) {
           </NavLink>
         ) : (
           <NavLink style={{ textDecoration: "none" }} to={"/todo"}>
-            <span className={styles.linkItem}>To Do List</span>
+            <span className={styles.linkItem}>To Do List ({list.length})</span>
           </NavLink>
         )}
       </nav>
