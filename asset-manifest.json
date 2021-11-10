@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/dance-schedule/static/css/main.493dc7c4.chunk.css",
-    "main.js": "/dance-schedule/static/js/main.45079bf9.chunk.js",
-    "main.js.map": "/dance-schedule/static/js/main.45079bf9.chunk.js.map",
-    "runtime-main.js": "/dance-schedule/static/js/runtime-main.ba6018c3.js",
-    "runtime-main.js.map": "/dance-schedule/static/js/runtime-main.ba6018c3.js.map",
+    "main.js": "/dance-schedule/static/js/main.be580226.chunk.js",
+    "main.js.map": "/dance-schedule/static/js/main.be580226.chunk.js.map",
+    "runtime-main.js": "/dance-schedule/static/js/runtime-main.a1d32e12.js",
+    "runtime-main.js.map": "/dance-schedule/static/js/runtime-main.a1d32e12.js.map",
     "static/css/2.4ad96f08.chunk.css": "/dance-schedule/static/css/2.4ad96f08.chunk.css",
-    "static/js/2.01c82f84.chunk.js": "/dance-schedule/static/js/2.01c82f84.chunk.js",
-    "static/js/2.01c82f84.chunk.js.map": "/dance-schedule/static/js/2.01c82f84.chunk.js.map",
-    "static/js/3.4d92bde4.chunk.js": "/dance-schedule/static/js/3.4d92bde4.chunk.js",
-    "static/js/3.4d92bde4.chunk.js.map": "/dance-schedule/static/js/3.4d92bde4.chunk.js.map",
+    "static/js/2.a2bb09c6.chunk.js": "/dance-schedule/static/js/2.a2bb09c6.chunk.js",
+    "static/js/2.a2bb09c6.chunk.js.map": "/dance-schedule/static/js/2.a2bb09c6.chunk.js.map",
+    "static/js/3.4d4657f8.chunk.js": "/dance-schedule/static/js/3.4d4657f8.chunk.js",
+    "static/js/3.4d4657f8.chunk.js.map": "/dance-schedule/static/js/3.4d4657f8.chunk.js.map",
     "static/css/4.73df61b7.chunk.css": "/dance-schedule/static/css/4.73df61b7.chunk.css",
-    "static/js/4.6c4a4dc0.chunk.js": "/dance-schedule/static/js/4.6c4a4dc0.chunk.js",
-    "static/js/4.6c4a4dc0.chunk.js.map": "/dance-schedule/static/js/4.6c4a4dc0.chunk.js.map",
+    "static/js/4.a90635de.chunk.js": "/dance-schedule/static/js/4.a90635de.chunk.js",
+    "static/js/4.a90635de.chunk.js.map": "/dance-schedule/static/js/4.a90635de.chunk.js.map",
     "static/css/5.ce5a6788.chunk.css": "/dance-schedule/static/css/5.ce5a6788.chunk.css",
-    "static/js/5.3d187ab1.chunk.js": "/dance-schedule/static/js/5.3d187ab1.chunk.js",
-    "static/js/5.3d187ab1.chunk.js.map": "/dance-schedule/static/js/5.3d187ab1.chunk.js.map",
-    "static/js/6.43cbc97b.chunk.js": "/dance-schedule/static/js/6.43cbc97b.chunk.js",
-    "static/js/6.43cbc97b.chunk.js.map": "/dance-schedule/static/js/6.43cbc97b.chunk.js.map",
+    "static/js/5.b536b328.chunk.js": "/dance-schedule/static/js/5.b536b328.chunk.js",
+    "static/js/5.b536b328.chunk.js.map": "/dance-schedule/static/js/5.b536b328.chunk.js.map",
+    "static/js/6.7afd47d7.chunk.js": "/dance-schedule/static/js/6.7afd47d7.chunk.js",
+    "static/js/6.7afd47d7.chunk.js.map": "/dance-schedule/static/js/6.7afd47d7.chunk.js.map",
     "index.html": "/dance-schedule/index.html",
     "static/css/2.4ad96f08.chunk.css.map": "/dance-schedule/static/css/2.4ad96f08.chunk.css.map",
     "static/css/4.73df61b7.chunk.css.map": "/dance-schedule/static/css/4.73df61b7.chunk.css.map",
     "static/css/5.ce5a6788.chunk.css.map": "/dance-schedule/static/css/5.ce5a6788.chunk.css.map",
     "static/css/main.493dc7c4.chunk.css.map": "/dance-schedule/static/css/main.493dc7c4.chunk.css.map",
-    "static/js/2.01c82f84.chunk.js.LICENSE.txt": "/dance-schedule/static/js/2.01c82f84.chunk.js.LICENSE.txt"
+    "static/js/2.a2bb09c6.chunk.js.LICENSE.txt": "/dance-schedule/static/js/2.a2bb09c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba6018c3.js",
+    "static/js/runtime-main.a1d32e12.js",
     "static/css/2.4ad96f08.chunk.css",
-    "static/js/2.01c82f84.chunk.js",
+    "static/js/2.a2bb09c6.chunk.js",
     "static/css/main.493dc7c4.chunk.css",
-    "static/js/main.45079bf9.chunk.js"
+    "static/js/main.be580226.chunk.js"
   ]
 }
